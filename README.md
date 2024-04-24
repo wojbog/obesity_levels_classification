@@ -20,40 +20,37 @@ Our primary objective was to explore and implement preprocessing techniques to e
 
 Before proceeding, ensure that you have the following prerequisites installed on your system:
 
-* Python: Jupyter Notebook requires Python. You can download and install Python from the official website: [Python.org.](https://www.python.org/)
+* Python: Jupyter Notebook requires Python (3.11.7). You can download and install Python from the official website: [Python.org.](https://www.python.org/)
 * pip (Python package installer): You can install pip by following the instructions provided [here](https://pip.pypa.io/en/stable/installation/).
 
 #### Necessary Libraries
 
 Before running the Jupyter Notebook, make sure you have the following Python libraries installed:
 
-- **numpy**: A fundamental package for scientific computing with Python. It provides support for arrays, matrices, and mathematical functions.
+- **numpy** *1.25.2*: A fundamental package for scientific computing with Python. It provides support for arrays, matrices, and mathematical functions.
 
   ```bash
   pip install numpy
   ```
-- **pandas**: A powerful data manipulation and analysis library. It provides data structures and functions for efficiently working with structured data.
+- **pandas** *2.1.4*: A powerful data manipulation and analysis library. It provides data structures and functions for efficiently working with structured data.
     ```bash
     pip install pandas
     ```
-- **scikit-learn**: A machine learning library that provides simple and efficient tools for data mining and data analysis. It includes various classification, regression, and clustering algorithms.
+- **scikit-learn** *1.2.2*: A machine learning library that provides simple and efficient tools for data mining and data analysis. It includes various classification, regression, and clustering algorithms.
     ```bash
     pip install scikit-learn
     ```
-- **matplotlib**: A comprehensive library for creating static, interactive, and animated visualizations in Python. It is commonly used for data visualization tasks.
+- **matplotlib** *3.8.0*: A comprehensive library for creating static, interactive, and animated visualizations in Python. It is commonly used for data visualization tasks.
     ```bash
     pip install matplotlib
     ```
-- **seaborn**: A statistical data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+- **seaborn** *0.12.2*: A statistical data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
     ```bash
     pip install seaborn
     ```
-- **jupyter**: The Jupyter Notebook, a web-based interactive computing platform. It allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
-    ```bash
-    pip install notebook
-    ```
 
 #### Opening Jupyter Notebook
+Before launching the Jupyter Notebook, ensure you have it installed on your system. If you haven't installed Jupyter Notebook yet, you can do so by following the instructions provided on the [official Jupyter website](https://jupyter.org/).
 
 To open Jupyter Notebook, follow these steps:
 
